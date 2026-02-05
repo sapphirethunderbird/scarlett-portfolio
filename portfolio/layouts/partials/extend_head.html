@@ -1,0 +1,33 @@
+<style>
+    /* --- LIGHT MODE --- */
+    /* Keep standard backgrounds for light mode */
+    body {
+        background-color: #ffffff;
+        color: #1a1a1a;
+    }
+
+    /* --- DARK MODE FIX --- */
+
+    /* 1. Set the global background to OLED Black */
+    html.dark body {
+        background-color: #050505 !important;
+    }
+
+    /* 2. CRUSH the Gray Box */
+    /* This targets the specific gray color you found (rgb 38 38 38) and forces it black */
+    html.dark .bg-neutral-800,
+    html.dark .bg-gray-800,
+    html.dark .bg-zinc-800,
+    html.dark .dark\:bg-neutral-800 {
+        background-color: #050505 !important; /* Forces the box to blend with the background */
+        border: none !important; /* Removes any gray borders */
+    }
+
+    /* 3. Ensure text is white */
+    html.dark p,
+    html.dark h1,
+    html.dark h2,
+    html.dark span {
+        color: #ffffff !important;
+    }
+</style>

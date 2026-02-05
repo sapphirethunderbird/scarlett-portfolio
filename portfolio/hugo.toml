@@ -2,3 +2,204 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-noir'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+# URL handling
+relativeURLs = false
+canonifyURLs = false
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+    name = "Scarlett Whisnant"
+    location = "Japan"
+    description = "Tinkerer"
+    profile_image = "images/sapphirethunderbird.jpeg"
+    # Social links
+    github = "https://github.com/sapphirethunderbird"
+
+    [[params.certifications]]
+    title = "JLPT Level 1"
+    date = "Dec 2022"
+    url = "https://www.jlpt.jp/e/"
+
+    [[params.certifications]]
+    title = "TOIEC Score 990"
+    date = "July 2023"
+    url = "https://www.etsglobal.org/tf/en"
+
+    [[params.experience]]
+    company = "Lorem Technologies"
+    role = "AI Research Engineer"
+    period = "Jan 2023 - Dec 2023"
+    logo = "/images/company/lorem.png"
+    description = "Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+    responsibilities = [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Ut enim ad minim veniam, quis nostrud exercitation",
+        "Duis aute irure dolor in reprehenderit in voluptate",
+        "Excepteur sint occaecat cupidatat non proident"
+    ]
+
+    [[params.experience]]
+    company = "Ipsum Solutions"
+    role = "Machine Learning Engineer"
+    period = "Jun 2022 - Dec 2022"
+    logo = "/images/company/ipsum.png"
+    description = "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    responsibilities = [
+        "Sed ut perspiciatis unde omnis iste natus error",
+        "Nemo enim ipsam voluptatem quia voluptas sit",
+        "At vero eos et accusamus et iusto odio dignissimos",
+        "Et harum quidem rerum facilis est et expedita"
+    ]
+
+    [[params.experience]]
+    company = "Dolor Analytics"
+    role = "Data Scientist"
+    period = "Jan 2022 - May 2022"
+    logo = "/images/company/dolor.png"
+    description = "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit."
+    responsibilities = [
+        "Nam libero tempore, cum soluta nobis est eligendi",
+        "Temporibus autem quibusdam et aut officiis debitis",
+        "Itaque earum rerum hic tenetur a sapiente delectus"
+    ]
+
+    [[params.experience]]
+    company = "Sit Amet Corp"
+    role = "Open Source Contributor"
+    period = "2021 - Present"
+    description = "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse."
+    github_username = "loremipsum"
+
+    [[params.projects]]
+    title = "Project Consectetur"
+    description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    tech = "Python, TensorFlow, Docker, Redis"
+    image = "/images/projects/consectetur.png"
+    link = "https://github.com/loremipsum/consectetur"
+
+    [[params.projects]]
+    title = "Adipiscing Platform"
+    description = "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur."
+    tech = "React, Node.js, MongoDB, AWS"
+    image = "/images/projects/adipiscing.png"
+    link = "https://github.com/loremipsum/adipiscing"
+
+    [[params.projects]]
+    title = "Tempor Analytics"
+    description = "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
+    tech = "Python, FastAPI, PostgreSQL, Docker"
+    image = "/images/projects/tempor.png"
+    link = "https://github.com/loremipsum/tempor"
+
+    [[params.projects]]
+    title = "Eiusmod Framework"
+    description = "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+    tech = "Python, PyTorch, MLflow, Kubernetes"
+    image = "/images/projects/eiusmod.png"
+    link = "https://github.com/loremipsum/eiusmod"
+
+    [[params.projects]]
+    title = "Incididunt Engine"
+    description = "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus."
+    tech = "Python, Scikit-learn, Flask, Redis"
+    image = "/images/projects/incididunt.png"
+    link = "https://github.com/loremipsum/incididunt"
+
+    [[params.projects]]
+    title = "Labore System"
+    description = "Et harum quidem rerum facilis est et expedita distinctio nam libero tempore."
+    tech = "JavaScript, Express, MongoDB, Docker"
+    image = "/images/projects/labore.jpg"
+    link = "https://github.com/loremipsum/labore"
+
+    [[params.projects]]
+    title = "Dolore Platform"
+    description = "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe."
+    tech = "Python, Django, PostgreSQL, Celery"
+    image = "/images/projects/dolore.png"
+    link = "https://github.com/loremipsum/dolore"
+
+    [[params.projects]]
+    title = "Magna Analytics"
+    description = "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus."
+    tech = "Python, Pandas, Streamlit, AWS"
+    image = "/images/projects/magna.png"
+    link = "https://github.com/loremipsum/magna"
+
+    [[params.projects]]
+    title = "Aliqua Framework"
+    description = "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae."
+    tech = "TypeScript, React, GraphQL, Docker"
+    image = "/images/projects/aliqua.jpg"
+    link = "https://github.com/loremipsum/aliqua"
+
+    [[params.projects]]
+    title = "Excepteur System"
+    description = "Nisi ut aliquid ex ea commodi consequatur quis autem vel eum iure reprehenderit."
+    tech = "Python, FastAPI, Redis, Kubernetes"
+    image = "/images/projects/excepteur.jpg"
+    link = "https://github.com/loremipsum/excepteur"
+
+    [languages]
+      # --- ENGLISH CONFIGURATION ---
+      [languages.en]
+        languageName = "English"
+        title = "Scarlett Whisnant"
+        weight = 1
+        contentDir = "content/en"
+
+        [languages.en.menu]
+          [[languages.en.menu.main]]
+            name = "About"
+            pageRef = "about"
+            weight = 1
+
+          [[languages.en.menu.main]]
+            name = "Experience"
+            pageRef = "experience"
+            weight = 2
+
+          [[languages.en.menu.main]]
+            name = "Projects"
+            pageRef = "projects"
+            weight = 3
+
+          [[languages.en.menu.main]]
+            name = "Contact"
+            pageRef = "contact"
+            weight = 4
+
+
+  # --- JAPANESE CONFIGURATION ---
+  [languages.jp]
+    languageName = "日本語"
+    title = "ウィズナント　スカーレット"
+    weight = 2
+    contentDir = "content/jp"
+
+    [languages.jp.menu]
+      [[languages.jp.menu.main]]
+        name = "私について"
+        pageRef = "about"
+        weight = 1
+
+      [[languages.jp.menu.main]]
+        name = "経験"
+        pageRef = "experience"
+        weight = 2
+
+      [[languages.jp.menu.main]]
+        name = "プロジェクト・成果物"
+        pageRef = "projects"
+        weight = 3
+
+      [[languages.jp.menu.main]]
+          name = "問い合わせ"
+          pageRef = "contact"
+          weight = 4

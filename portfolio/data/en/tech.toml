@@ -1,0 +1,15 @@
+# The 'row1' array populates the top carousel
+row1 = [
+  { icon = "devicon-python-plain", name = "Python" },
+  { icon = "devicon-r-plain", name = "R" },
+  { icon = "devicon-javascript-plain", name = "JavaScript" },
+  { icon = "devicon-nextjs-plain", name = "Next.js" }
+]
+
+# The 'row2' array populates the bottom carousel
+row2 = [
+  { icon = "devicon-docker-plain", name = "Docker" },
+  { icon = "devicon-supabase-plain", name = "Supabase" },
+  { icon = "devicon-linux-plain", name = "Linux" },
+  { icon = "devicon-vercel-original", name = "Vercel" }
+]
