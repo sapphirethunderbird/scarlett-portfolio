@@ -32,10 +32,10 @@ canonifyURLs = false
     url = "https://www.etsglobal.org/tf/en"
 
     [[params.experience]]
-    company = "Lorem Technologies"
-    role = "AI Research Engineer"
-    period = "Jan 2023 - Dec 2023"
-    logo = "/images/company/lorem.png"
+    company = "YU"
+    role = "Undergraduate"
+    period = "Apr 2023 - Mar 2027 (Expected)"
+    #logo = "/images/company/lorem.png"
     description = "Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
     responsibilities = [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -44,51 +44,19 @@ canonifyURLs = false
         "Excepteur sint occaecat cupidatat non proident"
     ]
 
-    [[params.experience]]
-    company = "Ipsum Solutions"
-    role = "Machine Learning Engineer"
-    period = "Jun 2022 - Dec 2022"
-    logo = "/images/company/ipsum.png"
-    description = "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    responsibilities = [
-        "Sed ut perspiciatis unde omnis iste natus error",
-        "Nemo enim ipsam voluptatem quia voluptas sit",
-        "At vero eos et accusamus et iusto odio dignissimos",
-        "Et harum quidem rerum facilis est et expedita"
-    ]
-
-    [[params.experience]]
-    company = "Dolor Analytics"
-    role = "Data Scientist"
-    period = "Jan 2022 - May 2022"
-    logo = "/images/company/dolor.png"
-    description = "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit."
-    responsibilities = [
-        "Nam libero tempore, cum soluta nobis est eligendi",
-        "Temporibus autem quibusdam et aut officiis debitis",
-        "Itaque earum rerum hic tenetur a sapiente delectus"
-    ]
-
-    [[params.experience]]
-    company = "Sit Amet Corp"
-    role = "Open Source Contributor"
-    period = "2021 - Present"
-    description = "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse."
-    github_username = "loremipsum"
+    [[params.projects]]
+    title = "Burnout Predictor 'Satori' "
+    description = "AI model trained on FER 2013 to analyze facial expressions and predict the user's risk for burnout."
+    tech = "Python, OpenCV, Tkinter"
+    image = "/images/projects/Screenshot 2026-02-06 at 12.22.58 PM.png"
+    link = "https://github.com/sapphirethunderbird/burnout_predictor"
 
     [[params.projects]]
-    title = "Project Consectetur"
-    description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
-    tech = "Python, TensorFlow, Docker, Redis"
-    image = "/images/projects/consectetur.png"
-    link = "https://github.com/loremipsum/consectetur"
-
-    [[params.projects]]
-    title = "Adipiscing Platform"
-    description = "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur."
-    tech = "React, Node.js, MongoDB, AWS"
-    image = "/images/projects/adipiscing.png"
-    link = "https://github.com/loremipsum/adipiscing"
+    title = "Communication Board 'Kakehashi'"
+    description = "A digital communication board targeted at those with developmental disabilities, allowing for custom cards/drawings for communication."
+    tech = "Next.js, TypeScript, Vercel"
+    image = "/images/projects/communication_board_edit_screen.jpeg"
+    link = "https://github.com/sapphirethunderbird/kakehashi"
 
     [[params.projects]]
     title = "Tempor Analytics"
